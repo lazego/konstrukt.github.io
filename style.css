@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.home {
+  background: url(ing_bg2.png);
+  background-size: cover;
+  text-align: center;
+  background-position: top;
+}
+.logo {
+  padding-top: 41px;
+  /* text-align: center; */
+  padding-bottom: 310px;
+}
+.title_home {
+  /* text-align: center; */
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  letter-spacing: 5.71px;
+  font-weight: normal;
+}
+.text_home {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 210px;
+}
+.scroll_text {
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  letter-spacing: 3.7px;
+  padding-bottom: 75px;
+}
+
+.ul_menu {
+  text-align: center;
+  list-style: none;
+  padding: 24px 0px;
+  border-bottom: solid 1px #e6e6e6;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.ul_menu li {
+  display: inline-block;
+}
+.a_logo {
+  cursor: pointer;
+  margin-right: 170px;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: #48555b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.09px;
+  font-weight: 700;
+}
+ul a:hover {
+  color: #00a4e5;
+}
+
+.about {
+  padding-bottom: 118px;
+}
+.about_content {
+  /* justify-content: center; */
+  justify-content: center;
+  display: flex;
+}
+.title_about {
+  text-align: center;
+  color: #48555b;
+  font-size: 18px;
+  letter-spacing: 2.31px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 52px;
+  padding-bottom: 96px;
+  position: relative;
+}
+.title_about::after {
+  position: absolute;
+  content: "";
+  border-bottom: solid 3px #00a4e5;
+
+  width: 50px;
+  bottom: 49%;
+  left: 48.5%;
+}
+.about_cards {
+  display: flex;
+  gap: 30px;
+}
+.card img {
+  width: 160px;
+  height: 224px;
+}
+
+.about_text {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  width: 405px;
+  padding-right: 100px;
+}
+.h2_about_text {
+  font-size: 20px;
+  letter-spacing: 0.19px;
+  line-height: 23px;
+}
+.h3_about_text {
+  font-size: 13px;
+  letter-spacing: 0.19px;
+  padding-top: 30px;
+  line-height: 23px;
+}
+.span_about {
+  color: #00a4e5;
+}
+.services {
+  margin-bottom: 115px;
+}
+.title_services {
+  display: flex;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.h2_title_services {
+  color: #48555b;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2.31px;
+  padding-right: 172px;
+}
+.h3_text_services {
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2px;
+  padding-right: 100px;
+}
+.btn_services {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  background: #00a4e5;
+  color: #fff;
+  border: none;
+  padding: 11px 29px;
+}
+.services_cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  color: #48555b;
+}
+.services_card {
+  border: 1px solid #e6e6e6;
+  width: 317px;
+}
+.services_card img {
+  padding: 38px 0 25px 23px;
+}
+.title_card_services {
+  font-size: 16px;
+  letter-spacing: 0.43px;
+  padding-left: 23px;
+  padding-bottom: 13px;
+}
+.text_card_services {
+  padding-left: 23px;
+  font-size: 13px;
+  padding-bottom: 39px;
+}
+.work {
+  background: url(./bg-city-gray.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 230px;
+  font-family: "Open Sans", sans-serif;
+}
+.title_card_services {
+  font-size: 30px;
+  color: #48555b;
+  letter-spacing: 0.15px;
+  line-height: 36px;
+}
+.btn_work {
+  margin-top: 35px;
+  font-size: 13px;
+  padding: 11px 26px;
+  color: #fff;
+  background: #00a4e5;
+  border: none;
+  cursor: pointer;
+}
+.contact {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 30px;
+  background: #171819;
+  padding-bottom: 30px;
+}
+
+.title_form {
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.85px;
+}
+input {
+  padding-left: 16px;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  border: none;
+  width: 250px;
+}
+.btn_form {
+  color: #fff;
+  background: #00a4e5;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  padding: 11px 49px;
+  border: none;
+  cursor: pointer;
+}
+.content_contact {
+  padding-top: 42px;
+  background: #141a20;
+  padding-bottom: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.85px;
+  gap: 40px;
+}
+.company_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+.company {
+  font-size: 11px;
+  font-weight: 100;
+}
+.text_company {
+  font-size: 11px;
+  font-weight: 100;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+.link_second {
+  align-self: center;
+}
+.img_a {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 32px;
+}
+
+.footer {
+  padding: 22px 0px;
+  background: #171819;
+  border: none;
+}
+h4 {
+  text-align: center;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  letter-spacing: 0.85px;
+  font-weight: normal;
+}
